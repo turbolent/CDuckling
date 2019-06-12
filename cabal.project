@@ -1,0 +1,7 @@
+packages: CDuckling.cabal
+
+source-repository-package
+    type: git
+    location: https://github.com/facebook/duckling.git
+    tag: a9438734c9cdc072c9fe9710baf46cf16fa0c62d
+
