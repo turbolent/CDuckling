@@ -1,8 +1,12 @@
 language: haskell
 
+cabal: "2.4"
+
 cache:
   directories:
-  - "$HOME/.cabal/store"
+  - $HOME/.cabal/packages
+  - $HOME/.cabal/store
+  - $HOME/.cabal/bin
   - "$TRAVIS_BUILD_DIR/dist-newstyle"
 
 matrix:
