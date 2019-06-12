@@ -2,6 +2,7 @@ name:               CDuckling
 version:            0.1.0
 cabal-version:      >=2.00
 build-type:         Simple
+extra-source-files: duckling.h
 
 foreign-library duckling
   type:             native-shared
@@ -23,5 +24,6 @@ foreign-library duckling
   other-modules:      CDuckling
                     , Duckling.Data.TimeZone
   default-language: Haskell2010
+  includes:         duckling.h
   install-includes: duckling.h
 
